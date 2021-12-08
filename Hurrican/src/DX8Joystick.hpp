@@ -67,5 +67,8 @@ class DirectJoystickClass {
 
     // Returns true if button(s) serving as Delete key are pressed (For menus, esp. button mapping menu)
     bool ButtonDeletePressed();
+
+    // Returns true if button(s) serving as Start key are pressed (For game)
+    bool ButtonStartPressed();
 };
 #endif

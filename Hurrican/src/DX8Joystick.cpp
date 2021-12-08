@@ -167,3 +167,7 @@ bool DirectJoystickClass::ButtonEscapePressed() {
 bool DirectJoystickClass::ButtonDeletePressed() {
     return JoystickButtons[4];  // Default is button 4
 }
+
+bool DirectJoystickClass::ButtonStartPressed() {
+    return JoystickButtons[8];  // FIXME
+}

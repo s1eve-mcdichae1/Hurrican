@@ -438,7 +438,7 @@ void GameLoop() {
         ShowGameOver();
 
     // Gameloop verlassen ?
-    if ((KeyDown(DIK_ESCAPE) || DirectInput.Joysticks[Player[0].JoystickIndex].ButtonEscapePressed())
+    if ((KeyDown(DIK_ESCAPE) || DirectInput.Joysticks[Player[0].JoystickIndex].ButtonStartPressed())
             && Player[0].GameOverTimer == 0.0f)
         LeaveGameLoop();
 
