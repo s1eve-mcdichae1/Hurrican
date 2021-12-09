@@ -169,5 +169,5 @@ bool DirectJoystickClass::ButtonDeletePressed() {
 }
 
 bool DirectJoystickClass::ButtonStartPressed() {
-    return JoystickButtons[8];  // FIXME
+    return JoystickButtons[7];  // FIXME
 }
